@@ -4,7 +4,7 @@ from frappe import _
 def get_data():
 	return {
 		"Activity": {
-			"color": "#e67e22",
+			"color": "#333333",
 			"icon": "icon-play",
 			"icon": "octicon octicon-pulse",
 			"label": _("Activity"),
@@ -12,7 +12,7 @@ def get_data():
 			"type": "page"
 		},
 		"Calendar": {
-			"color": "#2980b9",
+			"color": "#333333",
 			"icon": "icon-calendar",
 			"icon": "octicon octicon-calendar",
 			"label": _("Calendar"),
@@ -20,7 +20,7 @@ def get_data():
 			"type": "view"
 		},
 		"Messages": {
-			"color": "#9b59b6",
+			"color": "#333333",
 			"icon": "icon-comments",
 			"icon": "octicon octicon-comment-discussion",
 			"label": _("Messages"),
@@ -28,7 +28,7 @@ def get_data():
 			"type": "page"
 		},
 		"To Do": {
-			"color": "#f1c40f",
+			"color": "#333333",
 			"icon": "icon-check",
 			"icon": "octicon octicon-check",
 			"label": _("To Do"),
@@ -37,7 +37,7 @@ def get_data():
 			"type": "list"
 		},
 		"Notes": {
-			"color": "#95a5a6",
+			"color": "#333333",
 			"doctype": "Note",
 			"icon": "icon-file-alt",
 			"icon": "octicon octicon-file-text",
@@ -46,13 +46,13 @@ def get_data():
 			"type": "list"
 		},
 		"Website": {
-			"color": "#16a085",
+			"color": "#333333",
 			"icon": "icon-globe",
 			"icon": "octicon octicon-globe",
 			"type": "module"
 		},
 		"Installer": {
-			"color": "#5ac8fb",
+			"color": "#333333",
 			"icon": "icon-download",
 			"icon": "octicon octicon-cloud-download",
 			"link": "applications",
@@ -60,20 +60,20 @@ def get_data():
 			"label": _("Installer")
 		},
 		"Setup": {
-			"color": "#bdc3c7",
+			"color": "#333333",
 			"icon": "icon-wrench",
 			"icon": "octicon octicon-settings",
 			"type": "module"
 		},
 		"Core": {
-			"color": "#589494",
+			"color": "#333333",
 			"icon": "icon-cog",
 			"icon": "octicon octicon-file-binary",
 			"type": "module",
 			"system_manager": 1
 		},
 		"Integrations": {
-			"color": "#36414C",
+			"color": "#333333",
 			"icon": "octicon octicon-plug",
 			"type": "module",
 			"system_manager": 1

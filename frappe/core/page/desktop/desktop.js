@@ -58,7 +58,7 @@ $.extend(frappe.desktop, {
 			label: "All Applications",
 			_label: __("All Applications"),
 			_id: "all_applications",
-			color: "#4aa3df",
+			color: "#333333",
 			link: "",
 			force_show: true,
 			onclick: function() {

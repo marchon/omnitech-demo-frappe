@@ -98,3 +98,11 @@
 .navbar-brand > img {
   display: inline-block;
 }
+
+.navbar {
+  background-color: rgb(207, 9, 47) !important;
+}
+
+.navbar-nav > li > a {
+  color: white !important;  
+}

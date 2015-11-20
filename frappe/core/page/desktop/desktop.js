@@ -251,3 +251,12 @@ $.extend(frappe.desktop, {
 		}
 	}
 });
+
+$(document).ready(function(){
+     $(".app-icon").mouseover(function(){
+         $(this).parent().css("background-color", "rgb(207, 9, 47)")
+     });
+     $(".app-icon").mouseout(function(){
+         $(".case-wrapper").css("background-color", "rgb(229, 229, 229)");
+     });
+});
